@@ -1,0 +1,81 @@
+@charset " UTF-8";
+
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+
+header{
+    text-align: center;
+    box-shadow: 3px 3px 3px rgb(70, 69, 69);
+    background:linear-gradient(to top, rgb(48, 99, 82), aquamarine );
+    color: white;
+}
+header>h1{
+    font-size: 30px;
+}
+
+nav>a{
+
+
+color: white;
+text-decoration: none;
+font-weight: bold;
+margin-right: 30px;
+
+}
+nav>a:hover{
+text-decoration: underline;
+}
+main{
+background-color: white;
+border-radius: 3px;
+margin: 30px;
+padding: 10px;
+text-align: justify;
+margin-top: 0%;
+box-shadow: 3px 3px 3px rgb(70, 69, 69);
+}
+main>h1{
+color: rgb(1, 167, 98);
+}
+main> a {
+    color: rgb(104, 160, 116);
+text-decoration: none;
+font-weight: bold;
+margin-right: 30px;
+}
+.basica{
+background: linear-gradient(to right, aquamarine, white);
+color: rgb(1, 134, 68);
+font-size: 23px;
+}
+section#aprender{
+
+    padding: 10px;
+    border-radius:0px 0px 5px 5px;
+
+}
+.aprender{
+    background-color: rgb(207, 245, 232);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.aprener>a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 30px;
+}
+.final{
+    background-color: white;
+}
+footer{
+background-color: green;
+text-align: center;
+color: white;
+}

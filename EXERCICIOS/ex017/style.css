@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body#fundo001{
+    background-image: url(imagens/wallpaper001.jpg);
+}
+div.quadrado{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+div#q1{
+    background-color: skyblue;
+}
+div#q2{ 
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+div#q3{
+    background-image: url(imagens/pattern003.png);
+}
+
+body#fundo002{
+    background-color: lightgray;
+}
+div.bloco{
+    height: 200px;
+    background-image: url(imagens/wallpaper003.jpg);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+div#q5{
+    background-position: left top;
+}
+div#q6{
+    background-position: left center;
+}
+div#q7{
+    background-position:right bottom;
+}
+div#q8{
+    background-position: center center;
+}
+
+body#fundo003{
+    background-image: url(imagens/pattern001.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+body#fundo004{
+    border: 1px dashed black;
+    height: 97vh;
+    background-image: url('https://avatars.githubusercontent.com/u/8683378?v=4');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

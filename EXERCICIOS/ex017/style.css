@@ -65,3 +65,21 @@ body#fundo005{
     background-image: url(imagens/wallpaper003.jpg);
     background-position: center center;
 }
+
+body#fundo006{
+    background-color: black;
+    height: 100vh;
+    background-image: url(imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.classe006{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid darkblue;
+}

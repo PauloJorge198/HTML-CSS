@@ -43,18 +43,18 @@ https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex008
 
 https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex009
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0010
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex010
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0011
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex011
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0012
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex012
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0013
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex013
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0014
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex014
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0015
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex015
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0016
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex016
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0017/
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex017/

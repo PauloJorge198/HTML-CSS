@@ -73,11 +73,13 @@ body#fundo006{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .classe006{
     background-color: white;
-    width: 400px;
+    text-align: justify;
+    max-width: 400px;
     padding: 10px;
     border-radius: 5px;
     margin: auto;

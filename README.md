@@ -57,12 +57,4 @@ https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0015
 
 https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0016
 
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0017/fundo001.html
-
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0017/fundo002.html
-
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0017/fundo003.html
-
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0017/fundo004.html
-
-https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0017/fundo005.html
+https://paulojorge198.github.io/HTML-CSS/EXERCICIOS/ex0017/

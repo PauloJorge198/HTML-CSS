@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num{
+            text-align: right;
+            width: 100px;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <Table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">17.264.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>00000</strong></td>
+            </tr>
+        </tfoot>
+    </Table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat, harum ex necessitatibus voluptatibus aliquid at dolorem numquam rerum maxime dolores facilis praesentium cum obcaecati culpa fugit autem recusandae eligendi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quod itaque velit autem id dolorem. Consequuntur eum inventore corrupti, et omnis itaque. Ducimus alias unde sint quod rerum voluptatum corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut doloribus culpa temporibus dignissimos earum dicta quis totam, pariatur fugiat magnam eligendi illo, commodi adipisci natus tempora molestiae ipsum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis, tenetur nemo saepe laboriosam culpa ab consequatur totam veritatis earum delectus tempore ad nostrum dolor quidem et quae corrupti nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum in reiciendis alias! Vitae qui a consectetur reiciendis minima iste fugiat earum nulla quisquam harum inventore, laudantium impedit, vero tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, accusamus asperiores, ipsa delectus alias aut eos exercitationem eveniet nobis inventore animi velit voluptas perspiciatis reiciendis, modi cupiditate fugit praesentium. Possimus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia voluptas voluptates sunt tempore veniam? Tempore quis asperiores ratione laborum at a? Inventore ad sint quod quo corporis vitae nulla tempore? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias fugit perspiciatis iure eius veniam et? Quaerat, incidunt maiores nobis beatae unde id rerum. Consectetur, enim esse rem error qui eligendi?</p>
+</body>
+</html>

@@ -26,7 +26,7 @@ body{
 
 main{
     background-color: rgba(179, 177, 177, 0.829);
-    width: 90vw;
+    width: 400px;
     margin: auto;
     border-radius: 10px;
     margin-top: 20px;
@@ -44,18 +44,8 @@ img{
     margin: auto;
 }
 
-img#phone{
-   display: block; 
-}
-img#tablet{
-    display: none;
-}
-img#print{
-    display: none;
-}
-img#pc{
-    display: none;
-}
-img#tv{
-    display: none;
-}
+img#phone{ display: block; }
+img#tablet{ display: none; }
+img#print{ display: none; }
+img#pc{ display: none; }
+img#tv{ display: none; }
